@@ -17,4 +17,4 @@ If you're using a combination of iOS and macOS:
   * Xcode 8+ or any code editor
 
 ## Copyright Notices
-This playground is licensed under the Apache 2.0 License and follows the terms and conditions of Apple's preceding [Software License Agreement](Is Government Necessary.playgroundbook/Contents/License.txt).
+This playground is licensed under the Apache 2.0 License and follows the terms and conditions of Apple's preceding [Software License Agreement](Is Government Necessary?.playgroundbook/Contents/License.txt).
