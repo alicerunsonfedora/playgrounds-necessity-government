@@ -15,3 +15,6 @@ If you're solely editing this on iOS:
 If you're using a combination of iOS and macOS:
   * Swift Playgrounds (iPad only)
   * Xcode 8+ or any code editor
+
+## Copyright Notices
+This playground is licensed under the Apache 2.0 License and follows the terms and conditions of Apple's preceding Software License Agreement.
