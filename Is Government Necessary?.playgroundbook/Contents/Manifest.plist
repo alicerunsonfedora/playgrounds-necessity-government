@@ -15,7 +15,7 @@
 	<key>DevelopmentRegion</key>
 	<string>en</string>
 	<key>ImageReference</key>
-	<string>Images/PuzzleWorld-icon.png</string>
+	<string>Images/cover.png</string>
 	<key>Name</key>
 	<string>Government Simulator</string>
 	<key>SwiftVersion</key>
