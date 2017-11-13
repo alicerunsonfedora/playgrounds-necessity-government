@@ -4,7 +4,9 @@ _A Swift Playground book to assert the necessity of government_
 ## About this project
 This is a collaborative project that I am working on with @DireThunder as a government project to prove that government, no matter how crazy or absurd it is, is still necessary in this day and age.
 
-To learn more about the education aspect of this repository, please look at [OBJECTIVES.md](OBJECTIVES.md)
+To learn more about the education aspect of this repository, please look at [OBJECTIVES.md](OBJECTIVES.md).
+
+To examine the sources we used to convey the information, please look at our bibilography ([CITATIONS.md](CITATIONS.md)).
 
 ## Required Materials:
 If you're solely editing this on iOS:
