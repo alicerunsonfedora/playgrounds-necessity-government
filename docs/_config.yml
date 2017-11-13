@@ -1,3 +1,7 @@
 theme: jekyll-theme-architect
 title: Is government necessary?
-author: Marquis Kurt and Reggie Nillo
+authors: "Marquis Kurt and Reggie Nillo"
+
+download:
+  source:           "https://github.com/alicerunsonfedora/playgrounds-necessity-government/releases/latest.zip"
+  dist:             "https://github.com/alicerunsonfedora/playgrounds-necessity-government/releases/latest.zip"
