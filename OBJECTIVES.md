@@ -57,3 +57,6 @@ The following playground aims to answer the following questions:
 - [ ] Create a playground book with the **Puzzle World** template that imitates real scenarios in government
 - [ ] Use the puzzle worlds to demonstrate the importance of having the particular branch/aspect of government
   - [ ] If applicable, find real-life scenarios to imitate, such as Supreme Court cases, Congressional meetings, etc.
+
+## Copyright Credits
+Assignment and objective questions assigned and created by Mr. Silva @ DMS.
