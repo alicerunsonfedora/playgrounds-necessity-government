@@ -19,7 +19,7 @@ If you're using a combination of iOS and macOS:
 ## Downloads
 Downloads and releases are handled through GitHub's Releases.
 
-#### [Click here to access the releases.](http://www.gihub.com/alicerunsonfedora/playgrounds-necessity-government/releases/)
+#### [Click here to access the releases.](http://www.github.com/alicerunsonfedora/playgrounds-necessity-government/releases/)
 
 ## Copyright Notices
 This playground is licensed under the Apache 2.0 License and follows the terms and conditions of Apple's preceding [Swift Playgrounds Software License Agreement](https://github.com/alicerunsonfedora/playgrounds-necessity-government/blob/master/Is%20Government%20Necessary%3F.playgroundbook/License.txt).
