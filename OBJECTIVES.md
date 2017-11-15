@@ -2,7 +2,7 @@
 
 ## Introduction - _Common Sense_ by Thomas Paine
  > Society in every state is a blessing, but government even in its best state is but a necessary evil; int its worst state an intolerable one; for when we suffer, or are exposed to the same miseries by a government, which we might expect in a country without government, our calamity is heightened by reflecting that we furnish the means by which we suffer.  Government, like dress, is the badge of lost innocence; the palaces of kings are built on the ruins of the bowers of paradise.  For were impulses of conscience clear, uniform, and irresistibly obeyed, man would need no other law giver; but that not being the case, he finds it necessary to surrender up a part of his property to furnish means for the protection of the rest; and this he is induced to do by the same prudence in which every other case advises him out of two evils to choose the least.  Wherefore, security being the true design and end of government, it unanswerably flows that whatever form thereof appears most likely to ensure it to us, with the least expense and creates benefit, is preferable to all others.
- 
+
 ## Objectives
 The following playground aims to answer the following questions:
 
@@ -17,7 +17,7 @@ The following playground aims to answer the following questions:
 	* Explain the different types of legislative branches that exist today.
 	* Either compare how they function or talk about a legislative branch that you would create and how it would function.
 	* How is the necessity of a legislative branch determined?
-	* _Are legislative branches necessary?_  What changes need to be made to either make legislative branches more or less necessary depending on your viewpoint? 
+	* _Are legislative branches necessary?_  What changes need to be made to either make legislative branches more or less necessary depending on your viewpoint?
 * Is the executive branch (the Presidency) necessary?
 	* What is an executive branch?
 	* How do executive branches function around the world?
@@ -49,14 +49,14 @@ The following playground aims to answer the following questions:
 	* What nation does the United States compare to most in terms of its government structure?  How has that government structure in that other nation been reformed?  Could that process work here?  Explain.
 	* Does government create the American value system or is it the mixture of the various nations that live within the overall nation?  Explain.  
 
-  
+
 ## Materials required
   * Swift Playgrounds (iPad app)
-  
+
 ## Tasks:
 - [ ] Create a playground book with the **Puzzle World** template that imitates real scenarios in government
 - [ ] Use the puzzle worlds to demonstrate the importance of having the particular branch/aspect of government
   - [ ] If applicable, find real-life scenarios to imitate, such as Supreme Court cases, Congressional meetings, etc.
 
 ## Copyright Credits
-Assignment and objective questions assigned and created by Mr. Silva @ DMS.
+Assignment and objective questions assigned and created by [Mr. Silva @ DMS](mailto:nsilva@damien.edu).
