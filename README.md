@@ -6,7 +6,7 @@ This is a collaborative project that I am working on with @DireThunder as a gove
 
 To learn more about the education aspect of this repository, please look at [OBJECTIVES.md](OBJECTIVES.md).
 
-To examine the sources we used to convey the information, please look at our bibilography ([CITATIONS.md](CITATIONS.md)).
+To examine the sources we used to convey the information, please look at our bibliography ([CITATIONS.md](CITATIONS.md)).
 
 ## Required Materials:
 If you're solely editing this on iOS:
@@ -17,7 +17,7 @@ If you're solely editing this on iOS:
 If you're using a combination of iOS and macOS:
   * Swift Playgrounds (iPad only)
   * Xcode 8+ or any code editor
-  
+
 ## Downloads
 Downloads and releases are handled through GitHub's Releases.
 
