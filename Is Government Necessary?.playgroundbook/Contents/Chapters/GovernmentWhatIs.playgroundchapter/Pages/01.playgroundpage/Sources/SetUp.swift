@@ -64,21 +64,9 @@ public func playgroundPrologue() {
     // Any items added or removed after this call will be animated.
     finalizeWorldBuilding(for: world)
     //// ----
+
+    //Any other pieces of code that aren't essential to the world generation itself but is crucial for the world to work should be done in the hidden code section of the Contents.swift file.
 }
-
-import UIKit
-import PlaygroundSupport
-
-PlaygroundPage.current.needsIndefiniteExecution = true
-
-let asyncQueue = DispatchQueue(label: "asyncQueue", attributes: .concurrent)
-
-asyncQueue.async {
-    nicolle.move(distance: 4)
-    nicolle.turnLeft()
-}
-supervisor.move(distance: 4)
-supervisor.turnRight()
 
 public func presentWorld() {
     setUpLiveViewWith(world)
