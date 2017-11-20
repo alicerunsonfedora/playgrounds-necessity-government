@@ -7,7 +7,7 @@ import UIKit
 import Foundation
 import PlaygroundSupport
 
-typealias Character = Actor //Whenever someone wants to create a character, it can be done using "Character" instead of "Actor"
+public typealias Character = Actor //Whenever someone wants to create a character, it can be done using "Character" instead of "Actor"
 
 /* Globals
 If you have any objects or items that need to be publicly accessible in the playground page, declare it here. Declaring it in the function playgroundPrologue() will result in a non-local scope error.

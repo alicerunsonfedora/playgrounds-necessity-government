@@ -1,20 +1,7 @@
 //#-hidden-code
 import UIKit
 import PlaygroundSupport
-
-PlaygroundPage.current.needsIndefiniteExecution = true //Because concurrent code is used, we must allow Swift to make the playground run indefinitely until the end.
-
-let asyncQueue = DispatchQueue(label: "asyncQueue", attributes: .concurrent) //Start the concurrent code process
-
-asyncQueue.async {
-    nicolle.move(distance: 4)
-    nicolle.turnLeft()
-} //As nicolle moves and turns left...
-supervisor.move(distance: 4)
-supervisor.turnRight() //The supervisor will move and turn right...
 //#-end-hidden-code
-
-//Write your information here in markup.
 /*:
 # What is a government?
 - Callout(Definition):
@@ -26,7 +13,22 @@ While there is no code for you to run, you can hit the **Run My Code** button to
 */
 //#-hidden-code
 playgroundPrologue() //Builds the world
+let rulerN = nicolle
 //#-end-hidden-code
+
+//#-editable-code
+PlaygroundPage.current.needsIndefiniteExecution = true //Because concurrent code is used, we must allow Swift to make the playground run indefinitely until the end.
+
+let asyncQueue = DispatchQueue(label: "asyncQueue", attributes: .concurrent) //Start the concurrent code process
+
+asyncQueue.async {
+    rulerN.move(distance: 4)
+    rulerN.turnLeft()
+} //As nicolle moves and turns left...
+supervisor.move(distance: 4)
+supervisor.turnRight() //The supervisor will move and turn right...
+//Write your information here in marku
+//#-end-editable-code
 
 //#-hidden-code
 playgroundEpilogue()

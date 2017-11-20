@@ -5,12 +5,6 @@
 	<key>Chapters</key>
 	<array>
 		<string>GovernmentWhatIs.playgroundchapter</string>
-		<string>LegislativeBranch.playgroundchapter</string>
-		<string>ExecutiveBranch.playgroundchapter</string>
-		<string>JudicialBranch.playgroundchapter</string>
-		<string>ElectoralCollege.playgroundchapter</string>
-		<string>PoliticalParties.playgroundchapter</string>
-		<string>OptionalSection.playgroundchapter</string>
 	</array>
 	<key>ContentIdentifier</key>
 	<string>com.github.alicerunsonfedora.playgrounds-necessity-government</string>
