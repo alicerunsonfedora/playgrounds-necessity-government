@@ -20,25 +20,5 @@ let rulerN = nicolle
 playgroundPrologue()
 //#-end-hidden-code
 
-let governmentType = /*#-editable-code Tap to enter a government type*/""/*#-end-editable-code*/
-
-let governmentRulerType = /*#-editable-code Tap to enter a government ruler type (president? dictator?)*/""/*#-end-editable-code*/
-
-/*
-PLAYERS ON FIELD
-=======
-Citizens: civilian, secondCivilian, thirdCivilian, fourthCivilian, fifthCivilian
-Non-citizens: supervisor, rulerN
-
-*/
-
-let governmentRuler = [/*#-editable-code Tap to enter a ruler */ /*#-end-editable-code*/]
-let citizens = [/*#-editable-code Tap to enter the civilians */ /*#-end-editable-code*/]
-
-let governmentRulerHasPower = /*#-editable-code Tap to enter true or false */ /*#-end-editable-code*/
-
-let citizensHavePower = /*#-editable-code Tap to enter true or false */ /*#-end-editable-code*/
-//#-hidden-code
-
 playgroundEpilogue()
 //#-end-hidden-code
