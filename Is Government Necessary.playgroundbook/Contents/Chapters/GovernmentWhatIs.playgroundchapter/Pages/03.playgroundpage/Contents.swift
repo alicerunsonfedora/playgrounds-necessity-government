@@ -20,5 +20,10 @@ let rulerN = nicolle
 playgroundPrologue()
 //#-end-hidden-code
 
+let myGovernment = Government()
+
+myGovernment.
+
+//#-hidden-code
 playgroundEpilogue()
 //#-end-hidden-code
