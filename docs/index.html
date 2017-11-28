@@ -24,16 +24,17 @@
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
   </nav>
-  <div class="section no-pad-bot" id="index-banner">
+  <div class="section no-pad-bot parallax-container" id="index-banner">
+    <div class="parallax"><img src="img/carousel3.png"></div>
     <div class="container">
       <br><br>
-      <h2 class="header center green-text">Meet The Government</h2>
+      <h2 id = "header-title" class="header center light-green-text text-darken-1">Meet The Government</h2>
       <div class="row center">
-        <h5 class="header col s12 light">Play as a new governor for a town in this Minecraft map.</h5>
+        <h5 class="header col s12 light flow-text">Play as a new governor for a town in this Minecraft map.</h5>
       </div>
       <div class="row center">
-        <a id="download-button" class="btn-large waves-effect waves-light modal-trigger" href = "#modal1"><i class = "material-icons left">cloud_download</i>Download <span id = "version-id" class = "regular"></span></a>
-        <p><i id = "version-report" class = "grey-text"></i></p>
+        <a id="download-button" class="btn-large waves-effect waves-light modal-trigger" href = "#modal1"><i class = "material-icons left">cloud_download</i>Download</span></a>
+        <p><i id = "version-report" class = "grey-text text-lighten-2"></i></p>
       </div>
       <br><br>
 
@@ -41,52 +42,65 @@
 
     <div id="modal1" class="modal">
     <div class="modal-content">
-      <h4>Download the beta?</h4>
-      <p>This map is currently in its pre-release stages. Future releases may remove or change features you see in this map; bugs may also be present.</p>
-      <p>@AliceRunsOnFedora and @DireThunder are not responsible for any potenial problems that arise as a result of installing this pre-release map.</p>
+      <h5>Select a download</h5>
+      <div class="row">
+        <div class="col s6">
+          <h6 class = "green-text">Stable</h6>
+          <p>Getting the stable version of the map will give you the latest features on the stable tracks. This is the production-ready and consumer-ready version of the map and is the recommended download.</p>
+        </div>
+        <div class="col s6">
+          <h6 class = "orange-text">Pre-release</h6>
+          <p>Getting the pre-release version gives you access to pre-release features and changes to the map. Future releases may remove or change features you see in this map; bugs may also be present.</p>
+          <p><i class = "grey-text" style = "font-size: 12px;">We aren't responsible for any potenial problems that arise as a result of installing the pre-release version.</i></p>
+        </div>
+      </div>
+      <div class = "row">
+        <div class = "col s6">
+          <p class = "center"><a id = "dlmed" class="modal-action waves-effect green btn-flat" href = ""><i class = "material-icons left">cloud_download</i>Stable</a><p>
+        </div>
+        <div class = "col s6">
+          <p class = "center"><a id = "dlpre" class="modal-action waves-effect orange btn-flat" href = ""><i class = "material-icons left">cloud_download</i>Insider</a></p>
+        </div>
+      </div>
     </div>
     <div class="modal-footer">
-      <a href="#!" class="modal-action modal-close waves-effect waves-brown btn-flat">Cancel</a>
-      <a id = "dlpre" class="modal-action waves-effect waves-orange btn-flat" href = "">Download beta</a>
+      <a href="#!" class="modal-action modal-close waves-effect waves-brown btn-flat">Close</a>
     </div>
   </div>
   </div>
 
-
   <div class="container">
+    <br>
     <div class="section">
-
       <!--   Icon Section   -->
       <div class="row">
         <div class="col s12 m12">
-          <div class="carousel carousel-slider">
-            <a class="carousel-item" href="#one!"><img src="img/carousel1.PNG"></a>
-            <a class="carousel-item" href="#two!"><img src="img/carousel2.PNG"></a>
-            <a class="carousel-item" href="#three!"><img src="img/carousel3.PNG"></a>
-            <a class="carousel-item" href="#four!"><img src="img/carousel4.PNG"></a>
-            <a class="carousel-item" href="#five!"><img src="img/carousel5.PNG"></a>
-            <a class="carousel-item" href="#five!"><img src="img/carousel6.PNG"></a>
-            <a class="carousel-item" href="#five!"><img src="img/carousel7.PNG"></a>
-            <a class="carousel-item" href="#five!"><img src="img/carousel8.PNG"></a>
-            <a class="carousel-item" href="#five!"><img src="img/carousel9.PNG"></a>
-            <a class="carousel-item" href="#five!"><img src="img/carousel10.PNG"></a>
-          </div>
-          <p class = "grey-text center">Swipe to see screenshots (taken on iPhone).</p>
           <br>
           <div class="icon-block">
             <h2 class="center orange-text"><i class="material-icons">group</i></h2>
             <h5 class="center">Hello, governor.</h5>
 
-            <p class="light">The year is 2896 and all existing governments have disappeared off of the face of the earth. However, a newer, unified government has taken over: The Government. They have appointed you as the new governor for a new town, ready for you to manipulate and control. It's up to you to determine which laws are implemented, how they will be used, and what stays in the town.</p>
+            <p class="light flow-text">The year is 2896 and all existing governments have disappeared off of the face of the earth. However, a newer, unified government has taken over: The Government. They have appointed you as the new governor for a new town, ready for you to manipulate and control. It's up to you to determine which laws are implemented, how they will be used, and what stays in the town.</p>
             <i class = "grey-text">Note: This map is built for the cross-platform edition of Minecraft (iOS, Windows 10, Android, Xbox, PS4, etc.).</i>
           </div>
         </div>
       </div>
-
     </div>
-    <br><br>
+    <div class="carousel carousel-slider">
+      <a class="carousel-item"><img src="img/carousel1.PNG"></a>
+      <a class="carousel-item"><img src="img/carousel2.PNG"></a>
+      <a class="carousel-item"><img src="img/carousel3.PNG"></a>
+      <a class="carousel-item"><img src="img/carousel4.PNG"></a>
+      <a class="carousel-item"><img src="img/carousel5.PNG"></a>
+      <a class="carousel-item"><img src="img/carousel6.PNG"></a>
+      <a class="carousel-item"><img src="img/carousel7.PNG"></a>
+      <a class="carousel-item"><img src="img/carousel8.PNG"></a>
+      <a class="carousel-item"><img src="img/carousel9.PNG"></a>
+      <a class="carousel-item"><img src="img/carousel10.PNG"></a>
+    </div>
+    <p class = "grey-text center">Swipe to see screenshots (taken on iPhone).</p>
   </div>
-
+  <br>
   <footer class="page-footer brown">
     <div class="container">
       <div class="row">

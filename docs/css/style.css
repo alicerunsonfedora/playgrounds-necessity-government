@@ -21,3 +21,15 @@ html, body, a, p, b, i, blockquote, div, ul, li {
 #version-report {
   font-style: normal;
 }
+
+#index-banner {
+  color: white;
+}
+
+.modal {
+  color: black;
+}
+
+#header-title {
+  text-shadow: 0px 0px 8px #333;
+}
