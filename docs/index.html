@@ -6,13 +6,14 @@
   <title>Is Government Necessary?</title>
 
   <!-- CSS  -->
+  <script src = "js/version.js"></script>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link rel="stylesheet" type="text/css" media="screen" href="css/minecraft-webfont.css" />
 </head>
 <body>
-  <nav class="green" role="navigation">
+  <nav class="green darken-1" role="navigation">
     <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"><i class = "material-icons">group</i></a>
       <ul class="right hide-on-med-and-down">
         <li><a href="http://www.github.com/alicerunsonfedora/playgrounds-necessity-government">GitHub</a></li>
@@ -32,11 +33,23 @@
         <h5 class="header col s12 light">Play as a new governor for a town in this Minecraft map.</h5>
       </div>
       <div class="row center">
-        <a onclick="Materialize.toast('Download not available', 4000)" id="download-button" class="btn-large waves-effect waves-light brown"><i class = "material-icons left">cloud_download</i>Download</a>
+        <a id="download-button" class="btn-large waves-effect waves-light modal-trigger" href = "#modal1"><i class = "material-icons left">cloud_download</i>Download <span id = "version-id"></span></a>
       </div>
       <br><br>
 
     </div>
+
+    <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Download the beta?</h4>
+      <p>This map is currently in its pre-release stages. Future releases may remove or change features you see in this map; bugs may also be present.</p>
+      <p>@AliceRunsOnFedora and @DireThunder are not responsible for any potenial problems that arise as a result of installing this pre-release map.</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close waves-effect waves-brown btn-flat">Cancel</a>
+      <a href="https://github.com/alicerunsonfedora/playgrounds-necessity-government/releases/download/1.0.0b1/The.Government.v1.0.0b1.mcworld" class="modal-action waves-effect waves-orange btn-flat">Download beta</a>
+    </div>
+  </div>
   </div>
 
 
@@ -92,6 +105,16 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+
+  <script>
+  $(document).ready(function(){
+    // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
+    $('.modal').modal();
+    $(document.getElementById('download-button')).addClass(version.stage);
+  });
+
+  document.getElementById('version-id').innerHTML = version.number;
+  </script>
 
   </body>
 </html>
