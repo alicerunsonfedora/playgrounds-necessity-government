@@ -1,13 +1,10 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
-
-html, body, h1, h2, h3, h4, h5, h6, a, p, b, i, blockquote, div, ul, li {
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+h1, h2, h3, h4, h5, h6, .minecraft {
   font-family: 'Minecraft', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Ubuntu, Arial, sans-serif;
+}
+
+html, body, a, p, b, i, blockquote, div, ul, li {
+  font-family: 'Noto Sans', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Ubuntu, Arial, sans-serif;
 }
 
 .icon-block {
@@ -15,4 +12,12 @@ html, body, h1, h2, h3, h4, h5, h6, a, p, b, i, blockquote, div, ul, li {
 }
 .icon-block .material-icons {
 	font-size: inherit;
+}
+
+.regular {
+  text-transform: none;
+}
+
+#version-report {
+  font-style: normal;
 }

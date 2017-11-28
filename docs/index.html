@@ -6,7 +6,6 @@
   <title>Is Government Necessary?</title>
 
   <!-- CSS  -->
-  <script src = "js/version.js"></script>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
@@ -14,13 +13,13 @@
 </head>
 <body>
   <nav class="green darken-1" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"><i class = "material-icons">group</i></a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="http://www.github.com/alicerunsonfedora/playgrounds-necessity-government">GitHub</a></li>
+    <div class="nav-wrapper container minecraft"><a id="logo-container" href="#" class="brand-logo"><i class = "material-icons">group</i></a>
+      <ul class="right hide-on-med-and-down minecraft">
+        <li><a class = "minecraft" href="http://www.github.com/alicerunsonfedora/playgrounds-necessity-government">GitHub</a></li>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
-        <li><a href="http://www.github.com/alicerunsonfedora/playgrounds-necessity-government">GitHub</a></li>
+        <li><a class = "minecraft" href="http://www.github.com/alicerunsonfedora/playgrounds-necessity-government">GitHub</a></li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
@@ -28,12 +27,13 @@
   <div class="section no-pad-bot" id="index-banner">
     <div class="container">
       <br><br>
-      <h1 class="header center green-text">Meet The Government</h1>
+      <h2 class="header center green-text">Meet The Government</h2>
       <div class="row center">
         <h5 class="header col s12 light">Play as a new governor for a town in this Minecraft map.</h5>
       </div>
       <div class="row center">
-        <a id="download-button" class="btn-large waves-effect waves-light modal-trigger" href = "#modal1"><i class = "material-icons left">cloud_download</i>Download <span id = "version-id"></span></a>
+        <a id="download-button" class="btn-large waves-effect waves-light modal-trigger" href = "#modal1"><i class = "material-icons left">cloud_download</i>Download <span id = "version-id" class = "regular"></span></a>
+        <p><i id = "version-report" class = "grey-text"></i></p>
       </div>
       <br><br>
 
@@ -59,6 +59,20 @@
       <!--   Icon Section   -->
       <div class="row">
         <div class="col s12 m12">
+          <div class="carousel carousel-slider">
+            <a class="carousel-item" href="#one!"><img src="img/carousel1.PNG"></a>
+            <a class="carousel-item" href="#two!"><img src="img/carousel2.PNG"></a>
+            <a class="carousel-item" href="#three!"><img src="img/carousel3.PNG"></a>
+            <a class="carousel-item" href="#four!"><img src="img/carousel4.PNG"></a>
+            <a class="carousel-item" href="#five!"><img src="img/carousel5.PNG"></a>
+            <a class="carousel-item" href="#five!"><img src="img/carousel6.PNG"></a>
+            <a class="carousel-item" href="#five!"><img src="img/carousel7.PNG"></a>
+            <a class="carousel-item" href="#five!"><img src="img/carousel8.PNG"></a>
+            <a class="carousel-item" href="#five!"><img src="img/carousel9.PNG"></a>
+            <a class="carousel-item" href="#five!"><img src="img/carousel10.PNG"></a>
+          </div>
+          <p class = "grey-text center">Swipe to see screenshots (taken on iPhone).</p>
+          <br>
           <div class="icon-block">
             <h2 class="center orange-text"><i class="material-icons">group</i></h2>
             <h5 class="center">Hello, governor.</h5>
@@ -89,6 +103,7 @@
             <li><a class="white-text" href="https://www.apache.org/licenses/LICENSE-2.0
 ">Apache License 2.0</a></li>
             <li><a class="white-text" href="https://www.github.com/alicerunsonfedora/playgrounds-necessity-government">GitHub Repository</a></li>
+            <li><a class="white-text" href="https://www.github.com/alicerunsonfedora/playgrounds-necessity-government/wiki">Research</a></li>
           </ul>
         </div>
       </div>
@@ -105,16 +120,6 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
-
-  <script>
-  $(document).ready(function(){
-    // the "href" attribute of the modal trigger must specify the modal ID that wants to be triggered
-    $('.modal').modal();
-    $(document.getElementById('download-button')).addClass(version.stage);
-  });
-
-  document.getElementById('version-id').innerHTML = version.number;
-  </script>
-
+  <script src = "js/version.js"></script>
   </body>
 </html>
