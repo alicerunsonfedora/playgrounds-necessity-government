@@ -1,6 +1,15 @@
 {
-  "build": "1.0.0b1",
-  "stage": "dev",
-  "buildDate": "November 27, 2017",
-  "codename": "Alice"
+  "stableReady": "false",
+  "currentStable":
+  {
+    "build": "1.0.0",
+    "date": "January 24, 1894",
+    "link": "http://www.google.com"
+  },
+
+  "currentInsider": {
+    "build": "1.0.0b1",
+    "date": "November 27, 2017",
+    "link": "https://github.com/alicerunsonfedora/playgrounds-necessity-government/releases/download/1.0.0b1/The.Government.v1.0.0b1.mcworld"
+  }
 }

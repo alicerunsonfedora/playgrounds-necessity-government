@@ -1,21 +1,29 @@
-$(document).ready(function(){
-  $('.carousel').carousel();
-  $('.modal').modal();
-
+function getMapVersion() {
   $.getJSON("version.json",{}, function( data ){
-      document.getElementById('version-id').innerHTML = data.build;
+    var isStableReady = data.stableReady;
 
-      var stage = data.stage;
+    if (isStableReady == "true") {
+      document.getElementById('version-id').innerHTML = data.currentStable.build;
 
-      if (stage == "stable") {
-        $(document.getElementById('download-button')).addClass("green");
-      } else if (stage == "dev") {
-        $(document.getElementById('download-button')).addClass("orange");
-      } else {
-        $(document.getElementById('download-button')).addClass("brown");
-      }
+      var stage = data.currentStable.stage;
+      var dlURL = data.currentStable.link;
 
-      document.getElementById('version-report').innerHTML = "The current version available is <b>" + data.build + "</b> under the <b>" + data.stage + "</b> channel, released on: <b>" + data.buildDate + "</b>.";
+      $(document.getElementById('download-button')).addClass("green");
+
+      document.getElementById('version-report').innerHTML = "The current version available is <b>" + data.currentStable.build + "</b>, released on: <b>" + data.currentStable.date + "</b>.";
+
+      $('#dlpre').attr('href', dlURL);
+    } else if (isStableReady == "false") {
+      document.getElementById('version-id').innerHTML = data.currentInsider.build;
+
+      var stage = data.currentInsider.stage;
+      var dlURL = data.currentInsider.link;
+
+      $(document.getElementById('download-button')).addClass("orange");
+
+      document.getElementById('version-report').innerHTML = "The current version available is <b>" + data.currentInsider.build + "</b>, released on: <b>" + data.currentInsider.date + "</b>.";
+
+      $('#dlpre').attr('href', dlURL);
+    }
   });
-
-});
+}
