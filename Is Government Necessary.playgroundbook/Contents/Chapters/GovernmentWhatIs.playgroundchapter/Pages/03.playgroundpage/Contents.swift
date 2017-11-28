@@ -19,11 +19,7 @@ Turn this anarchy into a different type of government. Should it be a dictatorsh
 let rulerN = nicolle
 playgroundPrologue()
 //#-end-hidden-code
-
 let myGovernment = Government()
-
-myGovernment.
-
 //#-hidden-code
 playgroundEpilogue()
 //#-end-hidden-code
