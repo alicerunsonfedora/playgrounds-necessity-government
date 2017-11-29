@@ -1,7 +1,6 @@
 $(document).ready(function(){
-  $('.carousel').carousel();
+  $('.slider').slider();
   $('.modal').modal();
   getMapVersion();
-  $('.carousel.carousel-slider').carousel({fullWidth: true});
   $('.parallax').parallax();
 });
